@@ -27,7 +27,7 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-@here
+
 client.on('voiceStateUpdate', (old, now) => {
   const channel = client.channels.get('ايدي الروم');
   const currentSize = channel.guild.members.filter(m => m.voiceChannel).size;
@@ -37,7 +37,6 @@ client.on('voiceStateUpdate', (old, now) => {
 });
 
 
- وبسيط للجافا سكريبت
 
 
 client.login(process.env.BOT_TOKEN);

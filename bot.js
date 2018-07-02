@@ -27,6 +27,8 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
+
+
 client.on("message", async function(message)  {
 let voiceMembers = message.guild.channels.get('463396890453475328');
 if(message.content.startsWith(prefix + "voice")) {

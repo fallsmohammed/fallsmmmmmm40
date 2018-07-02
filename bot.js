@@ -29,5 +29,6 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 });
 
 
-و 
+ 
+
 client.login(process.env.BOT_TOKEN);

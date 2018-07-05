@@ -34,7 +34,7 @@ client.on('message', function(message) {
 	const myID = "464511708527067203";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
-		        if(message.author.id !== myID) return;
+		        if(message.author.id !== 455519607432806410) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         client.user.setUsername(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {

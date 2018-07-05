@@ -31,7 +31,7 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 
  
 client.on('message', function(message) {
-	const myID = "ايديك انت مو البوت";
+	const myID = "464511708527067203";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
